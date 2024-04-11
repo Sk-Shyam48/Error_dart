@@ -22,7 +22,7 @@ class Car extends Vehicle {
   Car(String make, String model, int year, this.mileage)
       : super(make, model, year);
 
-//  Override displayInfo method
+//  Override displayInfo methord
   @override
   void displayInfo() {
     super.displayInfo();
