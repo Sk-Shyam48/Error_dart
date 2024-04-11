@@ -1,5 +1,5 @@
 class DivisionByZeroException implements Exception {
-  // return methord error message 
+  // return methord error message
   String errorMessage() => "Error: Division by zero is not allowed.";
 }
 
@@ -9,7 +9,7 @@ int divideNumbers(int a, int b) {
       // if the divisor is zero
       throw DivisionByZeroException();
     }
-   // division and return the result
+    // division and return the result
     return a ~/ b;
   }
 
@@ -31,8 +31,7 @@ void main() {
     print(divideNumbers(20, 2));
     print(divideNumbers(20, 0));
     print(divideNumbers(20, int.parse("abc")));
-  }
-  catch (e) {
+  } catch (e) {
     print("An error occurred: $e");
   }
 }
