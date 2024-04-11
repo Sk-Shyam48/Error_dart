@@ -1,5 +1,5 @@
 class DivisionByZeroException implements Exception {
-  // return methord error message
+  // return methord error message 
   String errorMessage() => "Error: Division by zero is not allowed.";
 }
 
